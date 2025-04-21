@@ -151,7 +151,8 @@ module.exports = {
     sk: "{{#def.n}}nemôže obsahovať viac, než {{=n}} prv{{#def.mPlural}}",
     sv: "{{#def.n}}borde ha fler än {{=n}} sak{{#def.mPlural}}",
     th: "{{#def.n}}ต้องมีสมาชิกไม่เกิน {{=n}} ตัว",
-    "uz-LATN": "{{#def.n}} {{=n}} dan koʻp boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
+    "uz-LATN":
+      "{{#def.n}} {{=n}} dan koʻp boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
     zh: "{{#def.n}}不允许超过{{=n}}个元素",
     "zh-TW": "{{#def.n}}不可以超過{{=n}}個元素",
   },
@@ -234,7 +235,8 @@ module.exports = {
     sk: "{{#def.n}} musí obsahovať polož{{#def.propPlural}}: {{=e.params.deps}}, ak obsahuje {{=e.params.property}}",
     sv: "{{#def.n}}borde ha egenskap{{#def.propPlural}} {{=e.params.deps}} när egenskap {{=e.params.property}} finns tillgängligt",
     th: "{{#def.n}}เมื่อมี property {{=e.params.property}} แล้วจะต้องมี property {{=e.params.deps}} ด้วย",
-    "uz-LATN": "{{#def.n}} {{=e.params.property}} mavjud boʻlganida ushbu maydon{{? n==1 }}{{??}}lar{{?}}ga {{=e.params.deps}} ega boʻlishi kerak",
+    "uz-LATN":
+      "{{#def.n}} {{=e.params.property}} mavjud boʻlganida ushbu maydon{{? n==1 }}{{??}}lar{{?}}ga {{=e.params.deps}} ega boʻlishi kerak",
     zh: "{{#def.n}}应当拥有属性{{=e.params.property}}的依赖属性{{=e.params.deps}}",
     "zh-TW": "{{#def.n}}應該要有屬性{{=e.params.property}}的依賴屬性{{=e.params.deps}}",
   },
@@ -372,7 +374,8 @@ module.exports = {
     sk: "{{#def.n}}nesmie obsahovať viac než {{=n}} prv{{#def.mPlural}}",
     sv: "{{#def.n}}borde inte ha fler än {{=n}} sak{{#def.mPlural}}",
     th: "{{#def.n}}ต้องมีสมาชิกไม่เกิน {{=n}}",
-    "uz-LATN": "{{#def.n}} {{=n}}dan koʻp boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
+    "uz-LATN":
+      "{{#def.n}} {{=n}}dan koʻp boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
     zh: "{{#def.n}}不应多于 {{=n}} 个项",
     "zh-TW": "{{#def.n}}不應該多於 {{=n}} 個",
   },
@@ -398,7 +401,8 @@ module.exports = {
     sk: "{{#def.n}}nesmie obsahovať menej než {{=n}} prv{{#def.mPlural}}",
     sv: "{{#def.n}}borde inte ha färre än {{=n}} sak{{#def.mPlural}}",
     th: "{{#def.n}}ควรมีสมาชิกไม่น้อยกว่า {{=n}}",
-    "uz-LATN": "{{#def.n}}, {{=n}}dan kam boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
+    "uz-LATN":
+      "{{#def.n}}, {{=n}}dan kam boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
     zh: "{{#def.n}}不应少于 {{=n}} 个项",
     "zh-TW": "{{#def.n}}不應該少於 {{=n}} 個",
   },
@@ -476,7 +480,8 @@ module.exports = {
     sk: "{{#def.n}}nesmie obsahovať viac než {{=n}} polož{{#def.propPlural}}",
     sv: "{{#def.n}}borde inte ha fler än {{=n}} egenskap{{#def.propPlural}}",
     th: "{{#def.n}}ต้องมี property ไม่เกิน {{=n}} ตัว",
-    "uz-LATN": "{{#def.n}}, {{=n}}dan kam boʻlmagan maydon{{#def.propPlural}} tashkil topgan boʻlishi kerak",
+    "uz-LATN":
+      "{{#def.n}}, {{=n}}dan kam boʻlmagan maydon{{#def.propPlural}} tashkil topgan boʻlishi kerak",
     zh: "{{#def.n}}不应有多于 {{=n}} 个属性",
     "zh-TW": "{{#def.n}}不應該多於 {{=n}} 個屬性",
   },
@@ -693,7 +698,8 @@ module.exports = {
     "pt-BR": "{{#def.n}}não pode possuir mais que {{=n}} {{? n==1 }}item{{??}}itens{{?}}",
     ru: "{{#def.n}}должно иметь не более, чем {{=n}} элемент{{#def.mPlural}}",
     th: "{{#def.n}}ต้องมีไม่เกิน {{=n}} ตัว",
-    "uz-LATN": "{{#def.n}}, {{=n}}dan koʻp boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
+    "uz-LATN":
+      "{{#def.n}}, {{=n}}dan koʻp boʻlmagan element{{#def.mPlural}} tashkil topgan boʻlishi kerak",
     zh: "{{#def.n}} 不允许有超过 {{=n}} 个元素",
     "zh-TW": "{{#def.n}} 的元素不可以超過 {{=n}} 個",
   },
@@ -720,7 +726,8 @@ module.exports = {
     sk: "nesmie obsahovať duplicitné prvky (prvky ## {{=e.params.j}} a {{=e.params.i}} sú rovnaké)",
     sv: "borde inte ha duplicerade saker (sakerna ## {{=e.params.j}} och {{=e.params.i}} är identiska)",
     th: "ต้องมีสมาชิกไม่ซ้ำักัน (ลำดับที่ {{=e.params.j}} กับ {{=e.params.i}} ซ้ำกัน)",
-    "uz-LATN": "takrorlanuvchi elementlar boʻlmasligi kerak ({{=e.params.j}} va {{=e.params.i}} elementlar bir xil)",
+    "uz-LATN":
+      "takrorlanuvchi elementlar boʻlmasligi kerak ({{=e.params.j}} va {{=e.params.i}} elementlar bir xil)",
     zh: "不应当含有重复项 (第 {{=e.params.j}} 项与第 {{=e.params.i}} 项是重复的)",
     "zh-TW": "不應該有重複項目 (第 {{=e.params.j}} 項和第 {{=e.params.i}} 項是重複的)",
   },
