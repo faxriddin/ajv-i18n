@@ -32,7 +32,7 @@ Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv)
 |🇸🇰 sk|Slovak   |[kiskovacs](https://github.com/kiskovacs)|✓|✓|-|-|*|
 |🇸🇪 sv|Swedish  |[limmen](https://github.com/Limmen)|✓|✓|-|-|*|
 |🇹🇭 th|Thai     |[encX](https://github.com/encX)|✓|✓|✓|✓|✓|
-|🇺🇿 uz-LATN|Uzbek     |[encX](https://github.com/faxriddin)|✓|✓|✓|✓|✓|
+|🇺🇿 uz-LATN|Uzbek     |[faxriddin](https://github.com/faxriddin)|✓|✓|✓|✓|✓|
 |🇨🇳 zh|Chinese  |[jinzhubaofu](https://github.com/jinzhubaofu)<br>[leuction](https://github.com/leuction)|✓<br>&nbsp;|<br>✓|<br>✓|<br>✓|<br>✓|
 |🇹🇼 zh-TW|Chinese - Taiwan|[minipai](https://github.com/minipai)|✓|✓|✓|✓|✓|
 
