@@ -897,8 +897,8 @@ module.exports = {
     "pt-BR": 'deve corresponder ao schema "{{=e.params.failingKeyword}}"',
     ru: 'должно соответствовать схемe "{{=e.params.failingKeyword}}"',
     th: 'ต้องตรงกับ schema "{{=e.params.failingKeyword}}"',
-    zh: '应当匹配模式 "{{=e.params.failingKeyword}}" ',
     "uz-LATN": '"{{=e.params.failingKeyword}}" sxemaga mos kelishi kerak',
+    zh: '应当匹配模式 "{{=e.params.failingKeyword}}" ',
     "zh-TW": '應該符合 "{{=e.params.failingKeyword}}" schema',
   },
   discriminator: {
