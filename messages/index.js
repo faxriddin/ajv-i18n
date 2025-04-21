@@ -234,7 +234,7 @@ module.exports = {
     sk: "{{#def.n}} musí obsahovať polož{{#def.propPlural}}: {{=e.params.deps}}, ak obsahuje {{=e.params.property}}",
     sv: "{{#def.n}}borde ha egenskap{{#def.propPlural}} {{=e.params.deps}} när egenskap {{=e.params.property}} finns tillgängligt",
     th: "{{#def.n}}เมื่อมี property {{=e.params.property}} แล้วจะต้องมี property {{=e.params.deps}} ด้วย",
-    "uz-LATN": "{{#def.n}} {{=e.params.property}} mavjud boʻlganida ushbu maydon{{? n!=1 }}lar{{??}}ga {{=e.params.deps}} ega boʻlishi kerak",
+    "uz-LATN": "{{#def.n}} {{=e.params.property}} mavjud boʻlganida ushbu maydon{{? n==1 }}{{??}}lar{{?}}ga {{=e.params.deps}} ega boʻlishi kerak",
     zh: "{{#def.n}}应当拥有属性{{=e.params.property}}的依赖属性{{=e.params.deps}}",
     "zh-TW": "{{#def.n}}應該要有屬性{{=e.params.property}}的依賴屬性{{=e.params.deps}}",
   },
